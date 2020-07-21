@@ -13,6 +13,13 @@ body {
   line-height: 1.5em;
 }
 
+.container {
+  -moz-transition: font-size 1000ms ease;
+  -webkit-transition: font-size 1000ms ease;
+  -ms-transition: font-size 1000ms ease;
+  transition: font-size 1000ms ease;
+}
+
 .container .row {
   padding: 1em;
 }
