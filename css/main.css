@@ -1,3 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+    font-size: 1em;
+}
+
 body {
   color: white;
   background-color: #333;
@@ -13,11 +22,12 @@ body {
   line-height: 1.5em;
 }
 
-.container {
-  -moz-transition: font-size 1000ms ease;
-  -webkit-transition: font-size 1000ms ease;
-  -ms-transition: font-size 1000ms ease;
-  transition: font-size 1000ms ease;
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.mb-2 {
+  margin-bottom: 2em;
 }
 
 .container .row {
@@ -28,6 +38,13 @@ body {
   .container {
     width: 100%;
   }
+}
+
+.content {
+  -moz-transition: font-size 1000ms ease;
+  -webkit-transition: font-size 1000ms ease;
+  -ms-transition: font-size 1000ms ease;
+  transition: font-size 1000ms ease;
 }
 
 p {

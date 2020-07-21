@@ -1,7 +1,7 @@
 'use strict';
 
-var defaultFontSize = 1.5;
-const container = document.getElementsByClassName('container')[0];
+var defaultFontSize = 1;
+const container = document.getElementsByClassName('content')[0];
 const zoomIn = document.getElementById('zoom-in');
 const zoomOut = document.getElementById('zoom-out');
 
